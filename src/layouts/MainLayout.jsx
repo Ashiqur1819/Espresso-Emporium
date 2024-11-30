@@ -1,10 +1,11 @@
 import { Outlet } from "react-router-dom";
 
 const MainLayout = () => {
-  return <div>
-    <h2>Espresso Emporium</h2>
-    <Outlet></Outlet>
-  </div>;
+  return (
+    <div className="max-w-7xl mx-auto">
+        <Outlet></Outlet>
+    </div>
+  );
 };
 
 export default MainLayout;
